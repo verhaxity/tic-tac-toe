@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="players">
+            <div class="player">
+                <h2>Player 1</h2>
+                <div class="player__symbol">X</div>
+            </div>
+            <div class="player">
+                <h2>Player 2</h2>
+                <div class="player__symbol">O</div>
+            </div>
+        </div>
+        <div class="board-container">
+            <div class="board">
+                <button class="board__cell" data-cell-index="1"></button>
+                <button class="board__cell" data-cell-index="2"></button>
+                <button class="board__cell" data-cell-index="3"></button>
+                <button class="board__cell" data-cell-index="4"></button>
+                <button class="board__cell" data-cell-index="5"></button>
+                <button class="board__cell" data-cell-index="6"></button>
+                <button class="board__cell" data-cell-index="7"></button>
+                <button class="board__cell" data-cell-index="8"></button>
+                <button class="board__cell" data-cell-index="9"></button>
+            </div>
+        </div>
+
+        <button class="game-restart-btn">Restart Game</button>
+        <div class="popup hide">
+            <p id="message">Sample Message</p>
+            <button class="popup__restart-btn">New Game</button>
+        </div>
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
